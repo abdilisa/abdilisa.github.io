@@ -1,0 +1,128 @@
+html{
+	background-image: url("images/librarywithrug.jpg");
+	background-position: no-repeat no-repeat center center fixed;
+	background-attachment: bottom;
+	background-size: cover;
+}
+body {
+	font-size: 12pt;
+	color: white;
+}
+
+#header{
+	color: #FFFFFF;
+	font-family: 'Federo';
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 2px;
+	background-color: RGBA(28, 3, 0, .5);
+	font-size: 5em;
+	line-height: 1.5;
+	width: 500px;
+	padding: 10px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+/*background image
+#header{
+	background-image: url("images/library3.jpg");
+	background-image: url("images/library2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #222222;
+	;
+}*/
+
+#valueprop {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	line-height: .5;
+	text-align: left;
+	position: fixed;
+	top: 5em;
+	left: 0;
+	width: 500px;
+	padding: 10px;
+	margin: 0;
+}
+.address {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	line-height: .5;
+	font-size: 1em;
+	background-color: RGBA(28, 3, 0, .8);
+	width: 500px;
+	padding: 10px;
+	border: 5px black;
+	margin: 0;
+	text-align: left;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+h3{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: .8em;
+	letter-spacing:2px;
+}
+.menu{
+	position: fixed;
+	top: 0;
+	right: 2.5em;
+	background-attachment: top;
+}
+/*display image line horizontally li{
+	display: inline;
+	list-style-type: none;
+}*/
+
+.crop{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+.crop img{
+	max-width: 90%;
+	max-height: 90%;
+	overflow: hidden;
+}
+#samovar{
+	width: 150px;
+	background-color: RGBA(28, 3, 0, .5);
+	padding: 10px;
+	border: 5px black;
+	margin: 0;
+}
+#pelmeni{
+	width: 150px;
+	background-color: rgba(28, 3, 0, 5);
+	padding: 10px;
+	border: 5px black;
+	margin: 0;
+	padding-bottom: 0px;
+}
+#blinchiki{
+	width: 150px;
+	background-color: rgba(28, 3, 0, .5);
+	padding: 10px;
+	border: 5px black;
+	margin: 0;
+}
+#stanfdiscount{
+	font-size: .75em;
+	position: fixed;
+	bottom: 1em;
+	right: 4em;
+	background-color: rgba(28, 3, 0, .5)
+}
+a{
+	color: rgb(218, 219, 201);
+}
