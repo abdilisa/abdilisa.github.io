@@ -1,8 +1,7 @@
 html{
 	background-image: url("images/librarywithrug.jpg");
-	background-position: no-repeat no-repeat center center fixed;
-	background-attachment: bottom;
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover cover;
 }
 body {
 	font-size: 12pt;
